@@ -1,0 +1,109 @@
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+  height: 100%;
+  background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%
+    , rgb(70,70,221) 0%, rgba(0,212,255,1) 100%);
+
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.canvas {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #95a6ff;
+  width: 800px;
+  height: 400px;
+  border: 1px solid #000000;
+  box-shadow: 4px 4px 8px 0px rgba(0, 145, 255, 0.76);
+  flex-direction: column;
+  padding: 20px;
+}
+
+.desc__title {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 15px;
+  color: #8100fa;
+}
+
+.desc__subtitle {
+  color: #00179a;
+}
+
+.filed__form__label {
+  color: #00179a;
+  margin-right: 10px;
+}
+
+.field__form__input {
+  padding: 10px;
+  width: 200px;
+  margin-right: 10px;
+  border: 1px solid #030a53;
+}
+
+.field__form__btn {
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: rgb(226, 108, 4);
+    transition: all 2s ease 0s;
+}
+.field__form__btn:hover {
+    background-color: rgb(0, 45, 246);
+    box-shadow: 10px 10px 10px rgb(9, 14, 81);
+    color:aliceblue ;
+    transform: scale(1.2,1.2);
+    
+}
+
+.btn2 {
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: rgb(46, 127, 233);
+    transition: all 2s ease 0s;
+}
+.btn2:hover {
+    background-color: rgb(0, 156, 246);
+    box-shadow: 10px 10px 10px rgb(9, 14, 81);
+    color:aliceblue ;
+    transform: scale(1.2,1.2);
+    
+}
