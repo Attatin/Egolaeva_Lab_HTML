@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool Company</title>
+    <link rel="stylesheet" href="css/main.css" />
+    
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img class="logo" src="img/logo.png" alt="pic">
+            <div class="wrapper">
+                <div class="offer">
+                    <h1 class="title">С помощью нас <br> вы сможете
+                        создать то, о чем</h1>
+                        <span class="title_span">желаете</span>
+                        <p class="offer_text">Наши возможности + опыт
+                        позволят Вам достичь огромного успеха. Мы верим
+                        в вас! И знаем это на все 100%. Вас не остановить!</p>
+                        <a href="#" class="btn">Узнать больше...</a>
+                </div>
+                <img class="header_img" src="img/header-img.png" alt="pic">
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <h2 class="main_title">Что Вам необходимо?</h2>
+            <div class="main_block">
+                <div class="main_blocks">
+                    <img src="img/f3.png" alt="pic">
+                    <h3>Первый блок</h3>
+                    <p class="main_pcol">Текст текст текст текст текст</p>
+                </div>
+                <div class="main_blocks">
+                    <img src="img/f4.png" alt="pic">
+                    <h3>Второй блок</h3>
+                    <p class="main_pcol">Текст текст текст текст текст</p>
+                </div>
+                <div class="main_blocks">
+                    <img src="img/f5.png" alt="pic">
+                    <h3>Третий блок</h3>
+                    <p class="main_pcol">Текст текст текст текст текст</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="forma">
+        <div class="container">
+            <h2 class="forma_title">Форма заказа продукта или услуги</h2>
+            <div class="forma_block">
+                <form action="#" class="form" method="POST" enctype="multipart/form-data">
+                <div class="forma_blocks">
+                    <div class="zzz"><input type="text" name="first" id="first" placeholder="Имя" onblur="checkFirst();"> </div>
+                    <div class="zzz"><span id="first_Check"></span></div>
+                </div>
+                <div class="forma_blocks">
+                    <div class="zzz"><input type="text" name="email" id="email" placeholder="Введите свой Email" onblur="checkEmail();"></div>
+                    <div class="zzz"><span id="email_Check"></span></div>
+                </div>
+                <div class="forma_blocks">
+                    <div class="zzz"><input type="text" name="phone" id="phone" placeholder="Телефон +7-ХХХ-ХХХ-ХХ-ХХ" onblur="checkPhone();"></div>
+                    <div class="zzz"><span id="phone_Check"></span></div>
+                </div>
+                <div class="forma_blocks">
+                    <div class="zzz"><div class="zzz"><input type="text" name="number" id="number" placeholder="Номер продукта" onblur="checkNumber();"></div>
+                    <div class="zzz"><span id="number_Check"></span></div>
+                </div>
+                <div class="forma_blocks">
+                    <div class="zzz"><button type="Submit" id="sendOrder" onclick="outputData();"">Сделать заказ!</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="zakaz orderSummary">                        
+        <div class="zzz">
+            <span id="summary"></span>
+        </div>
+        </form>
+    </div>
+    </section>
+
+    <section class="forma">
+        <div class="container">
+            <h2 class="forma_title">Форма заказа обратного звонка</h2>
+            <div class="forma_block">
+                <form action="#" class="form" method="POST" enctype="multipart/form-data"></form>
+                <div class="forma_blocks">
+                    <input type="text" name="name" id="" placeholder="Имя" required>
+                </div>
+                <div class="forma_blocks">
+                    <input type="text" name="email" id="" placeholder="Введите свой Email" pattern="^\S+@\S+\.\S+$">
+                </div>
+                <div class="forma_blocks">
+                    <input type="text" name="tel" id="tel" placeholder="Телефон 8**********"   pattern="[0-9]{11}"                  pattern="[a-z]{1,15}"
+                    title="Введите номер телефона в формате 8**********">
+                </div>
+                <div class="forma_blocks">
+                    <input type="text" name="" id="" placeholder="Какая тема Вас интересует?" required name="tttt">
+                </div>
+                <div class="forma_blocks">
+                    <button type="Submit">Отправить вопрос!</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="foo">
+        <div class="container">
+            <footer class="foo_title">Ⓒ Все на этом сайте защищено</footer>
+        </div>
+    </section>
+    <script src="cod.js"></script>
+</body>
+</html>
